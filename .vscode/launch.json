@@ -8,7 +8,8 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/greeter.ts",
+      // "program": "${workspaceFolder}/greeter.ts",
+      "program": "${workspaceFolder}/usage.class-validator.ts",
       "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": ["${workspaceFolder}/out/**/*.js"]
     }
