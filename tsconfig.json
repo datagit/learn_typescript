@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "outDir": "out",
-    "sourceMap": true
-  }
+    "outDir": "js",
+    "sourceMap": true,
+    "watch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "js"]
 }

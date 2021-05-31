@@ -26,6 +26,7 @@ export class Post {
 let post = new Post();
 post.title = 'Hello'; // should not pass
 
+
 validate(post).then(errors => {
   // errors is an array of validation errors
   if (errors.length > 0) {
