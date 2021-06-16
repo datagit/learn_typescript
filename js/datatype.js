@@ -82,4 +82,9 @@ let objList2 = [
 ];
 console.log(objList2.length);
 objList2.forEach(x => console.log(x));
+function funcDefaultValue(s = "DDDD") {
+    return s;
+}
+console.log(funcDefaultValue());
+console.log(funcDefaultValue("ABC"));
 //# sourceMappingURL=datatype.js.map

@@ -3,7 +3,7 @@
     "experimentalDecorators": true,
     "target": "es6",
     "module": "commonjs",
-    "outDir": "js",
+    "outDir": "out",
     "sourceMap": true,
     "watch": true
   },

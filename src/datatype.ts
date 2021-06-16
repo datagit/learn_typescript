@@ -117,3 +117,9 @@ let objList2: ObjectNameIdList = [
 console.log(objList2.length);
 objList2.forEach(x => console.log(x));
 
+function funcDefaultValue(s: string = "DDDD"): string{
+  return s;
+}
+
+console.log(funcDefaultValue());
+console.log(funcDefaultValue("ABC"));
