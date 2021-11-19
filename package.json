@@ -4,11 +4,15 @@
   "description": "",
   "main": "Student.js",
   "scripts": {
+    "dev": "nodemon out/greeter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "class-validator": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

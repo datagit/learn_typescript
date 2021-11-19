@@ -34,3 +34,12 @@ tsc
 #class-validator
 https://www.npmjs.com/package/class-validator
 ```
+
+# guide: https://www.youtube.com/watch?v=NS1wJBsQ9SM&list=PLKzNGvIJtUDbQk3RDWTbyo2FkezJYf0q1&index=4
+```bash
+npm install --save-dev nodemon
+# left terminal -> compiler with tsconfig.json
+tsc
+
+# right terminal -> run nodemon
+```

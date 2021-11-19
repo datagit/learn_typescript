@@ -20,3 +20,18 @@ function greeter2(person: Person) {
   return "Hello, " + person.firstName + " " + person.lastName;
 }
 console.log(greeter2(user2));
+//object
+const makeFullName = (obj: {
+  firstName: string,
+  lastName: string,
+}) => {
+  console.log('run')
+  return {
+    ...obj,
+    fullName: `${obj.firstName} ${obj.lastName}`
+  }
+}
+
+// my comment
+const n1 = makeFullName({firstName: 'Dat2', lastName: 'Dao'})
+console.log(n1)
