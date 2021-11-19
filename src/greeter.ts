@@ -1,4 +1,4 @@
-import { fun2 } from './functions'
+import { fun2, square } from './functions'
 import { Student } from './Student'
 interface Person {
   firstName: string;
@@ -35,3 +35,5 @@ const makeFullName = (obj: {
 // my comment
 const n1 = makeFullName({firstName: 'Dat2', lastName: 'Dao'})
 console.log(n1)
+
+console.log(square(123))
