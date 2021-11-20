@@ -36,6 +36,17 @@ https://www.npmjs.com/package/class-validator
 ```
 
 # guide: https://www.youtube.com/watch?v=NS1wJBsQ9SM&list=PLKzNGvIJtUDbQk3RDWTbyo2FkezJYf0q1&index=4
+# value type and reference type => https://www.youtube.com/watch?v=RLBqJpK1hro
+
+```js
+// clone object or array
+const a = { name: 'dat' } // address: 12EF
+const cloneObjectA = { ...a } // address: 34EF
+
+const arr1 = [1,2,3] // address: 12EE
+const cloneArray1 = [...arr1] // address: 34EE
+```
+# overview nodejs: https://nodejs.dev/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs
 ```bash
 npm install --save-dev nodemon
 # left terminal -> compiler with tsconfig.json
