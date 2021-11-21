@@ -54,3 +54,8 @@ tsc
 
 # right terminal -> run nodemon
 ```
+
+# A REPL for sequelize inspired by Laravel Tinker. -> https://www.npmjs.com/package/sequelize-tinker
+```bash
+
+```
