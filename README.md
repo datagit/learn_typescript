@@ -52,6 +52,9 @@ npm install --save-dev nodemon
 # left terminal -> compiler with tsconfig.json
 tsc
 
+# left terminal -> compiler with tsconfig.json
+tsc -w
+
 # right terminal -> run nodemon
 ```
 
