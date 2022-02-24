@@ -80,3 +80,22 @@ const x: NumberResource = {
   name: 'Dat000 Dao',
   data: [200, 400]
 }
+
+const abc = {};
+// try {
+//   throw new Error('my error');
+// } catch (error) {
+//   //throw new Error((error as Error).message.toString());
+//   throw error as Error;
+// }
+
+
+
+const myFunc = async (role: string): Promise<Array<Record<string, any>>> => {
+  return [{a:1, b:2}];
+}
+
+async function myAAA() {
+  console.log(await myFunc("abc"));
+}
+myAAA();
