@@ -25,3 +25,20 @@ const helloPerson = (person: Person): void => {
 }
 
 helloPerson(henry)
+
+export interface WorkingTime {
+  startTime: string;
+  endTime: string;
+  isoWeekday: number | null;
+}
+
+export interface WorkingTimeMore extends WorkingTime {
+  isoWeekdayString: string;
+}
+const aWorkingTimeMore: WorkingTimeMore = {
+  startTime: '00:00',
+  endTime: '24:00',
+  isoWeekday: 0,
+  isoWeekdayString: 'isoWeekdayString',
+};
+console.log(aWorkingTimeMore);
